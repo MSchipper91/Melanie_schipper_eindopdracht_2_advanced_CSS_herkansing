@@ -1,0 +1,237 @@
+@charset "UTF-8";
+body {
+  background-color: #c3cfe2;
+  margin: 0;
+}
+body .opdracht-1 {
+  margin-bottom: 50px;
+  padding: 30px;
+  overflow: hidden;
+}
+body .opdracht-1 .top {
+  width: 350px;
+  background-color: white;
+  font-size: 25px;
+  font-family: helvetica;
+  line-height: 35px;
+  color: dimgray;
+  height: 300px;
+  padding: 40px 40px 50px 40px;
+  border-radius: 18px 18px 0px 0px;
+  box-shadow: 5px 5px darkgray;
+}
+body .opdracht-1 .sot {
+  width: 160px;
+  position: absolute;
+  border: 10px solid white;
+  border-radius: 50%;
+  transform: translateX(130px) translateY(-90px);
+}
+body .opdracht-1 .bottom {
+  width: 350px;
+  background-color: #686de0;
+  text-align: center;
+  height: 130px;
+  padding: 40px 40px 50px 40px;
+  border-radius: 0px 0px 18px 18px;
+  box-shadow: 5px 5px darkgray;
+}
+body .opdracht-1 .bottom h1 {
+  font-size: 25px;
+  font-family: helvetica;
+  margin-top: 50px;
+  color: white;
+}
+body .opdracht-1 .bottom h2 {
+  font-size: 20px;
+  font-family: helvetica;
+  color: #9699f3;
+}
+body .container {
+  display: flex;
+  position: relative;
+  background-color: #686de0;
+  margin: auto;
+  width: 467px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+body .container .button-container {
+  top: 45%;
+  left: 40%;
+  position: absolute;
+  opacity: 0;
+}
+body .container .button-container .button {
+  padding: 10px;
+  text-align: center;
+  color: lightgray;
+  background-color: #393b69;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+body .container .image-container {
+  background-color: #686de0;
+  border-radius: 10px;
+  height: 467px;
+}
+body .container .image-container img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 400ms;
+}
+body .container :hover img {
+  opacity: 0;
+}
+body .container:hover .button-container {
+  opacity: 1;
+}
+body .opdracht-3 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+body .social-media {
+  position: absolute;
+  font-family: helvetica;
+  font-size: 20px;
+  list-style-type: none;
+  overflow: hidden;
+}
+body .social-media a {
+  text-decoration: none;
+  color: white;
+}
+body .social-media .blog {
+  background-color: #e17b77;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+body .social-media .blog .fa-laptop-code::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+body .social-media .facebook {
+  background-color: #3b5998;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+body .social-media .facebook .fa-facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+  padding-right: 21px;
+}
+body .social-media .twitter {
+  background-color: #00aced;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+body .social-media .twitter .fa-twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+body .social-media .github {
+  background-color: #333;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+body .social-media .github .fa-github::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+body .social-media .linkedin {
+  background-color: #007bb6;
+  padding: 10px;
+  transform: translateX(230px);
+  transition-duration: 700ms;
+}
+body .social-media .linkedin .fa-linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+  font-size: 30px;
+  padding: 10px;
+}
+body .social-media li:hover {
+  transform: translateX(0px);
+  transition-duration: 700ms;
+}
+@media (min-width: 760px) {
+  body .opdracht-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body .opdracht-2 .container {
+    flex-direction: row;
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  body .opdracht-2 .container .button-container {
+    left: 37%;
+  }
+  body .opdracht-2 .container .image-container {
+    height: 350px;
+  }
+}
+@media (min-width: 1025px) {
+  body .container {
+    width: 300px;
+  }
+  body .container .image-container {
+    height: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  body .container {
+    width: 350px;
+  }
+  body .container .image-container {
+    height: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  body .container {
+    width: 430px;
+  }
+  body .container .image-container {
+    height: 430px;
+  }
+}
+@media (min-width: 1730px) {
+  body .container {
+    width: 500px;
+  }
+  body .container .image-container {
+    height: 500px;
+  }
+}
+@media (min-width: 2030px) {
+  body .container {
+    width: 600px;
+  }
+  body .container .image-container {
+    height: 600px;
+  }
+}
+@media (min-width: 2430px) {
+  body .container {
+    width: 700px;
+  }
+  body .container .image-container {
+    height: 700px;
+  }
+}/*# sourceMappingURL=style.css.map */

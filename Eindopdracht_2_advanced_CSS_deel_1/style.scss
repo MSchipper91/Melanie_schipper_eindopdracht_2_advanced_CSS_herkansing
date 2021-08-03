@@ -1,0 +1,60 @@
+@import "opdracht-2";
+@import "opdracht-3";
+@import "variables";
+
+body {
+    background-color: #c3cfe2;
+    margin: 0;
+
+.opdracht-1 {
+    margin-bottom: 50px;
+    padding: 30px;
+    overflow: hidden;
+
+    .top {
+        width: $width;
+        background-color: $color-top;
+        font-size: $font-size;
+        font-family: $font-family;
+        line-height: 35px;
+        color: rgb(105, 105, 105); 
+        height: 300px;
+        padding: $padding;
+        border-radius: 18px 18px 0px 0px;
+        box-shadow: $shadow;
+    }
+
+    .sot {
+        width: 160px;
+        position: absolute;
+        border: 10px solid $color-top;
+        border-radius: 50%;
+        transform: translateX(130px) translateY(-90px);
+    }
+
+    .bottom {
+        width: $width;
+        background-color: $color-bottom;
+        text-align: center;
+        height: 130px;
+        padding: $padding;
+        border-radius: 0px 0px 18px 18px;
+        box-shadow: $shadow;
+
+        h1 {
+            font-size: $font-size;
+            font-family: $font-family;
+            margin-top: 50px;
+            color: $color-top;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-family: $font-family;
+            color: #9699f3;
+        }
+    }
+    }   
+        
+}
+

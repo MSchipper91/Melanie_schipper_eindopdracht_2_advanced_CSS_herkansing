@@ -1,0 +1,137 @@
+.container {   
+    display: flex;
+    position: relative;
+    background-color: $color-bottom;
+    margin: auto;
+    width: 467px;
+    margin-bottom: 20px;
+    border-radius: $border-radius;
+
+.button-container {
+    top: 45%;
+    left: 40%;
+    position: absolute;
+    opacity: 0;
+
+    .button {
+        padding: 10px;
+        text-align: center;
+        color: lightgray;
+        background-color: #393b69;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
+
+    .image-container {
+        background-color: $color-bottom;
+        border-radius: $border-radius;
+        height: 467px;  
+        
+
+        img {
+            width: 100%;
+            border-radius: $border-radius;
+            transition: 400ms;
+        }   
+    }
+
+    :hover img {
+            opacity: 0;
+    }
+}
+
+.container:hover .button-container{
+    opacity: 1;
+  }
+
+  @media (min-width: 760px) {
+
+    .opdracht-2 {
+        display: flex;
+        flex-wrap: wrap;
+    
+
+      .container {
+        flex-direction: row;
+        width: 350px;
+        margin-bottom: 30px;
+
+        .button-container {
+            left: 37%;
+        }
+
+        .image-container {
+            height: 350px;
+        }
+      }
+    }
+}
+
+@media (min-width: 1025px) {
+    
+    .container {
+        width: 300px;
+        
+        .image-container {
+            height: 300px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 350px;
+
+        .image-container {
+            height: 350px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+   
+    .container {
+        width: 430px;
+
+        .image-container {
+            height: 430px;
+        }
+    }
+}
+
+@media (min-width: 1730px) {
+   
+    .container {
+        width: 500px;
+
+        .image-container {
+            height: 500px;
+        }
+    }
+}
+
+@media (min-width: 2030px) {
+   
+    .container {
+        width: 600px;
+
+        .image-container {
+            height: 600px;
+        }
+    }
+}
+
+@media (min-width: 2430px) {
+   
+    .container {
+        width: 700px;
+
+        .image-container {
+            height: 700px;
+        }
+    }
+
+}
